@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# React Routing (React Router Dom v6)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+In this project, I studied and practiced **routing** in a React application using **React Router Dom v6**.  
+The project covers both basic and advanced routing concepts, working with private routes, navigation history, programmatic navigation, and lazy loading of components.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## What I Learned and Implemented
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 1. Routing Basics
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Understanding **URL** structure.
+- Installing and using the **React Router** library.
+- Creating basic routing with `<Routes>` and `<Route>`.
 
-### `npm test`
+### 2. Nested Routes
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Using the `<Outlet>` component for rendering nested routes.
+- Structuring pages and components efficiently.
 
-### `npm run build`
+### 3. Navigation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Using `<Link>` and `<NavLink>` for page navigation.
+- Programmatic navigation with `useNavigate()` and `navigate`.
+- Getting the current route information using `useLocation()`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 4. Working with Navigation History
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Managing browser navigation history.
+- Redirecting users and handling conditional navigation.
 
-### `npm run eject`
+### 5. Private Routes
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Creating **protected routes** that are accessible only to authenticated users.
+- Redirecting unauthorized users to the login page.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 6. Lazy Loading
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Loading components on demand using `React.lazy()` and `Suspense`.
+- Optimizing application performance and reducing initial load time.
