@@ -1,8 +1,8 @@
-# React Routing (React Router Dom v6)
+# React Routing (React Router Dom v7)
 
 ## Description
 
-In this project, I studied and practiced **routing** in a React application using **React Router Dom v6**.  
+In this project, I studied and practiced **routing** in a React application using **React Router Dom v7**.  
 The project covers both basic and advanced routing concepts, working with private routes, navigation history, programmatic navigation, and lazy loading of components.
 
 ---
